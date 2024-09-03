@@ -110,7 +110,7 @@ export default function WeatherWidget() {
     const currentHours = new Date().getHours();
     const isNight = currentHours >= 18 && currentHours < 6;
 
-    return `${location} ${isNight ? "at Night" : "Day Time"}`;
+    return `${location} ${isNight ? "at Night" : "During Time"}`;
   }
 
   return (
